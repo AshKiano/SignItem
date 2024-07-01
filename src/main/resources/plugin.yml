@@ -1,0 +1,14 @@
+name: SignItem
+version: '${project.version}'
+main: com.ashkiano.signitem.SignItem
+api-version: 1.16
+authors: [ AshKiano ]
+commands:
+  signitem:
+    description: Signs the item in hand.
+    usage: /signitem
+    permission: signitem.use
+  unsignitem:
+    description: Unsigns the item in hand.
+    usage: /unsignitem
+    permission: unsignitem.use
